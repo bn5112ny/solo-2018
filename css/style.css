@@ -1,0 +1,559 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1em;
+}
+    
+body {
+    font-family:sans-serif;
+    margin-bottom: 0 auto;
+    text-align: center;
+
+}
+
+#top {
+    display: flex-direction;
+    padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    text-align: center;
+    flex-direction: column;
+  }
+  .header-right {
+    float: none;
+  }
+  .container {
+        width: 100vw;
+    }
+}
+
+
+.logo {
+    width: 120px;
+    padding: 10px 10px 0px 10px;
+    float: left;
+    
+}
+
+.facebook-top {
+    width: 50px;
+    padding: 20px 10px 10px 10px;
+    display: flex;
+}
+
+.instagram-top {
+    display: flex;
+    width: 50px;
+    padding: 20px 10px 10px 10px;
+}
+
+.twitter-top {
+    display: flex;
+    width: 50px;
+    padding: 20px 10px 10px 10px;
+}
+
+.donate {
+    background-color: #8cc640;
+    color: white;
+    font-family:sans-serif;
+    padding: 10px 10px 10px 10px;
+    width: 100px;
+    margin: 20px 10px 10px 10px;
+    border: none;
+    float: right;
+}
+
+.navbar {
+    float: right;
+    padding: 5px;
+}
+
+.topnav a {
+    float: center;
+    color: #28ADE3;
+    text-align: center;
+    padding: 300px 600px;
+    text-decoration:inherit;
+    font-size: 30px;
+    height: 30px;
+    position: relative;
+    
+}
+
+.topnav a:hover {
+    color: #28ADE3;
+}
+
+.topnav a.active {
+    background-color: #8cc640;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: white;
+    height: 80px;
+    
+}
+
+li {
+    float:left;
+    font-family:sans-serif;
+    margin: 30px 10px 10px 20px;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: #28ADE3;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-family:sans-serif;
+    margin: 20px 10px 10px 10px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #8cc640;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #28ADE3;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.section-1 {
+    background-image: url("../images/group_photo.jpg");  
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 85vh;
+    margin: inherit;
+    font-family:sans-serif;
+
+}
+
+.mission {
+    font-family:sans-serif
+    position: relative;
+}
+
+.section-2 {
+    background-color: #006990;
+    height: 15vh;
+    color: white;
+    font-family:sans-serif;
+    padding: 20px 20px 20px 20px;
+    position: relative;
+    font-size: large;
+}
+
+.section-3 {
+    display: flex;
+    
+}
+
+.aaiff {
+    width: 300px;
+}
+
+.lin {
+    width: 300px;
+}
+.sec3-left1 {
+    background-color: #8cc640;
+    height: inherit;
+    width: 50%;
+    color: white;
+    font-family:sans-serif;
+    padding: 20px 20px 20px 20px;
+    text-align: left;
+}
+
+h1 {
+    font-size: larger;
+}
+
+
+
+.sec3-left2 {
+    background-color: #8cc640;
+    height: inherit;
+    width: 50%;
+    color: white;
+    font-family:sans-serif;
+    padding: 20px 20px 20px 20px;
+    text-align: left;
+}
+
+.right_arrow {
+    width: 20px;
+    height: 12px;
+    padding: 0 auto;
+    
+}
+
+.right_arrow a:hover {
+    color: #8cc640;
+    padding: 0;
+}
+
+
+
+.moreLink {
+    color: white;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.moreLink a:hover {
+    color: #8cc640;
+    padding: 0;
+}
+
+
+.sec3-right1 {
+    height: inherit;
+    width: 50%;
+    border: 10;
+    background-color: #28ADE3;
+    color: white;
+    font-family:sans-serif;
+    padding: 20px 20px 20px 20px;
+     text-align: left;
+}
+.sec3-right2 {
+    height: inherit;
+    width: 50%;
+    border: 10;
+    background-color: #8cc640;
+    color: white;
+    font-family:sans-serif;
+    padding: 20px 20px 20px 20px;
+     text-align: left;
+}
+
+.msYoo {
+    width: 150px;
+}
+
+.ATB2018 {
+    width: 200px;
+}
+
+.section-4 {
+  background-color: #006990;
+    color: white;
+    font-family:sans-serif;
+    padding: 20px 20px 20px 20px;
+}
+
+.email {
+    font-family:sans-serif;
+    padding: 10px 10px 10px 10px;
+    width: 200px;
+    margin: 5px 5px 5px 5px;
+}
+
+.submit {
+    background-color: #8cc640;
+    color: white;
+    font-family:sans-serif;
+    padding: 10px 10px 10px 10px;
+    width: 100px;
+    margin: 5px 5px 5px 5px;
+    border: none;
+}
+
+.section-5 {
+    background-color: #28ADE3;
+    height: 5vh;
+    color: white;
+    font-family:sans-serif;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: x-large;
+}
+
+.section-6 {
+    display: flex;
+    height: 200px;
+}
+
+.sec6-1 {
+    background-color: #28ADE3;
+    color: white;
+    font-family:sans-serif;
+    padding: 0px 10px 10px 10px;
+    text-align: left;
+    width: 32%;
+}
+.sec6-2 {
+    background-color: #28ADE3;
+    color: white;
+    font-family:sans-serif;
+    padding: 0px 10px 10px 10px;
+    text-align: left;
+    width: 34%;
+}
+
+.sec6-3 {
+    background-color: #28ADE3;
+    color: white;
+    font-family:sans-serif;
+    padding: 0px 10px 10px 10px;
+    text-align: left;
+    width: 34%;
+}
+
+.more {
+    color: white;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.more a:hover {
+    color: #8cc640;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #006990;
+    margin-top: 20px;
+}
+
+.section-7 {
+    display: flex;
+    
+}
+
+
+.sec7-left {
+    background-color: #006990;
+    width: 70%;
+    color: white;
+    font-family:sans-serif;
+    padding: 20px 20px 20px 20px;
+    float: right;
+    
+}
+
+.about2 {
+    float: left;
+    text-align: left;
+    padding: 35px 20px 20px 20px;
+}
+
+.news2 {
+    float:left;
+    text-align: left;
+    padding: 0px 50px 30px 20px;
+   
+}
+
+.involved2 {
+    text-align: left;
+     padding: 0px 50px 20px 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+footer a:hover {
+    color: #28ADE3;
+}
+
+.sec7-right {
+    height: inherit;
+    width: 30%;
+    border: 10px;
+    background-color: ##006990;
+    color: white;
+    font-family:sans-serif;
+    padding: 20px 20px 20px 20px;
+    text-align: left;
+}
+
+.contact2 {
+    float: center;
+    text-align: left;
+    padding: 20px 50px 50px 0px;
+    color: white;
+}
+    
+.bot-nav {
+    font-family: sans-serif;
+    padding: 5px 5px 5px 5px;
+    margin: 20px 20px 20px 20px;
+
+}
+
+.ret-top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.up {
+    height: 30px;
+}
+
+.copy {
+    font-family: sans-serif;
+    padding: 20px 20px 20px 20px;
+    color: #8cc640;
+}
+
+.facebook {
+    width: 40px;
+    padding: 15px 10px 10px 0px;
+    text-align: left;
+    
+}
+
+.instagram {
+    width: 40px;
+    padding: 15px 10px 10px 0px;
+    
+}
+
+.twitter {
+    width: 40px;
+    padding: 15px 10px 10px 0px;
+    
+}
+
+.follow {
+    font-family: sans-serif;
+    font-size: medium;
+    color: #8cc640;
+    padding: 20px 20px 20px 20px;
+}
+
+/*BLOG PAGE*/
+.lin {
+    width: 200px;
+    
+}
+
+.link: a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.link a:hover {
+    text-decoration: none;
+    color: #8cc640;
+}
+
+/*https://www.w3schools.com/howto/howto_css_blog_layout.asp*/
+
+
+/* Header/Blog Title */
+.header {
+  padding: 0px 20px 20px 20px;
+  font-size: 30px;
+  text-align: left;
+  color: white;
+  font-family: sans-serif;
+  background-color: #8cc640;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn { 
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #28ADE3;
+  padding: 20px;
+  margin-top: 20px;
+  font-family: sans-serif;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn { 
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.blog-body {
+text-align: left;
+}
+
