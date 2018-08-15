@@ -6,9 +6,10 @@
 }
     
 body {
-    font-family:sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin-bottom: 0 auto;
     text-align: center;
+    font-size: large;
 
 }
 
@@ -30,42 +31,45 @@ body {
 
 .logo {
     width: 120px;
-    float: left;
     padding: 10px 10px 0px 10px;
+    float: left;
     
 }
 
 .facebook-top {
-    float: right;
     width: 50px;
     padding: 20px 10px 10px 10px;
+    display: flex;
 }
 
 .instagram-top {
-    float: right;
+    display: flex;
     width: 50px;
     padding: 20px 10px 10px 10px;
 }
 
 .twitter-top {
-    float: right;
+    display: flex;
     width: 50px;
     padding: 20px 10px 10px 10px;
 }
 
-.donate {
+.donatebutton {
     background-color: #8cc640;
-    float: right;
     color: white;
-    font-family:sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     padding: 10px 10px 10px 10px;
     width: 100px;
     margin: 20px 10px 10px 10px;
     border: none;
+    float: right;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .navbar {
-    position: relative;
+    float: right;
+    padding: 5px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .topnav a {
@@ -101,7 +105,7 @@ ul {
 
 li {
     float:left;
-    font-family:sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin: 30px 10px 10px 20px;
 }
 
@@ -111,7 +115,7 @@ li a, .dropbtn {
     text-align: center;
     padding: 15px 30px;
     text-decoration: none;
-    font-family:sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin: 20px 10px 10px 10px;
 }
 
@@ -155,7 +159,7 @@ li.dropdown {
   font-size: 30px;
   text-align: left;
   color: white;
-  font-family: sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   background-color: #8cc640;
 }
 
@@ -180,7 +184,7 @@ li.dropdown {
   background-color: #28ADE3;
   padding: 20px;
   margin-top: 20px;
-  font-family: sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color: white;
 }
 
@@ -255,6 +259,8 @@ h1 {
 
 .BlogLinks: {
     color: white;
+    text-decoration: none,
+    color: #FDFEFE;
 }
 
 .BlogLinks:hover {
@@ -264,6 +270,7 @@ h1 {
 .BlogLinks:visited {
     color: #006990;
 }
+
 
 /* Footer */
 footer {
@@ -281,30 +288,29 @@ footer {
 
 .sec7-left {
     background-color: #006990;
-    width: 70%;
+    width: 50%;
     color: white;
-    font-family:sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     padding: 20px 20px 20px 20px;
     float: right;
     
 }
 
-.about2 {
+#about2 {
     float: left;
-    text-align: left;
+    text-align: center;
     padding: 35px 20px 20px 20px;
 }
 
-.news2 {
-    float:left;
-    text-align: left;
-    padding: 0px 50px 30px 20px;
-   
+.blog2 {
+    float: none;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
 }
 
 .involved2 {
-    text-align: left;
-     padding: 0px 50px 20px 20px;
+    text-align: center;
+     padding: 0px 50px 50px 50px;
 }
 
 footer a {
@@ -319,24 +325,24 @@ footer a:hover {
 
 .sec7-right {
     height: inherit;
-    width: 30%;
+    width: 40%;
     border: 10px;
     background-color: ##006990;
     color: white;
-    font-family:sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     padding: 20px 20px 20px 20px;
-    text-align: left;
+    text-align: center;
 }
 
 .contact2 {
     float: center;
-    text-align: left;
-    padding: 20px 50px 50px 0px;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
     color: white;
 }
     
 .bot-nav {
-    font-family: sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     padding: 5px 5px 5px 5px;
     margin: 20px 20px 20px 20px;
 
@@ -353,35 +359,36 @@ footer a:hover {
 }
 
 .copy {
-    font-family: sans-serif;
-    padding: 20px 20px 20px 20px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0px 20px 20px 20px;
     color: #8cc640;
 }
 
 .facebook {
-    width: 50px;
-    padding: 10px 10px 10px 0px;
-    text-align: left;
+    width: 40px;
+    padding: 15px 10px 10px 0px;
+    text-align: center;
     
 }
 
 .instagram {
-    width: 50px;
-    padding: 10px 10px 10px 0px;
+    width: 40px;
+    padding: 15px 10px 10px 0px;
     
 }
 
 .twitter {
-    width: 50px;
-    padding: 10px 10px 10px 0px;
+    width: 40px;
+    padding: 15px 10px 10px 0px;
     
 }
 
 .follow {
-    font-family: sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: medium;
     color: #8cc640;
     padding: 20px 20px 20px 20px;
+    text-align: center;
 }
 /*end of footer*/
 
