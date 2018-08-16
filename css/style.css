@@ -17,7 +17,7 @@ body {
     padding: 10px;
 }
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
   .navbar a {
     float: none;
     display: block;
@@ -30,8 +30,35 @@ body {
   .container {
         width: 100vw;
     }
+    
+ html {
+        font-size: 12px;
+    }
+    
+    nav {
+        flex-direction: column-reverse;
+        
+    }
+    section {
+        flex-direction: column;
+    }
+    
+    .art-1 {
+        order:2;
+    }
+    
+    .art-2 {
+        order:3;
+        
+    .art-3 {
+        order:1;
+    }
+    
+    header {
+        background-position: center center;
+    }
 }
-
+*/
 
 .logo {
     width: 120px;
@@ -619,18 +646,31 @@ footer a:hover {
   clear: both;
 }
 
+.blog-body {
+text-align: left;
+}
 
 
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other 
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn { 
     width: 100%;
     padding: 0;
   }
-}
+}*/
 
-.blog-body {
-text-align: left;
-}
+
+/* For Media screen devices: max-width = 768px
+
+@media only screen and (max-width: 768px) {
+
+/*   Smart Phones
+
+@media only screen and (max-width: 500px) {
+    
+
+}*/
+
 
