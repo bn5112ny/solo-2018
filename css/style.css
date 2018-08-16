@@ -95,6 +95,7 @@ body {
     border: none;
     float: right;
     font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
 }
 
 .navbar {
@@ -253,8 +254,8 @@ h1 {
     
 }
 
-.right_arrow a:hover {
-    color: #8cc640;
+.right_arrow:hover {
+    color: #006990;
     padding: 0;
 }
 
@@ -267,8 +268,8 @@ h1 {
     
 }
 
-.moreLink a:hover {
-    color: #8cc640;
+.moreLink:hover {
+    color: #006990;
     padding: 0;
 }
 
@@ -393,6 +394,18 @@ h1 {
     
 }
 
+/* DONATE PAGE ONLY*/
+.main-section1 {
+    background-color: #28ADE3;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+}
+
 #impact {
     background-color: #28ADE3;
     color: white;
@@ -430,6 +443,12 @@ table {
 }
 */
 
+.PartnerLink {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
 .PartnerLink:a{
     text-decoration: none,
     color: #FDFEFE;
@@ -454,6 +473,16 @@ table {
 
 .DonateLink:visited {
     color: #2874A6;
+}
+
+.group_photo2 {
+    background-image: url("../images/group_photo2.png");  background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 85vh;
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+
 }
 
 
@@ -669,7 +698,7 @@ text-align: left;
 /*   Smart Phones
 
 @media only screen and (max-width: 500px) {
-    
+
 
 }*/
 
