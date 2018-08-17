@@ -17,48 +17,6 @@ body {
     padding: 10px;
 }
 
-/* @media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-    text-align: center;
-    flex-direction: column;
-  }
-  .header-right {
-    float: none;
-  }
-  .container {
-        width: 100vw;
-    }
-    
- html {
-        font-size: 12px;
-    }
-    
-    nav {
-        flex-direction: column-reverse;
-        
-    }
-    section {
-        flex-direction: column;
-    }
-    
-    .art-1 {
-        order:2;
-    }
-    
-    .art-2 {
-        order:3;
-        
-    .art-3 {
-        order:1;
-    }
-    
-    header {
-        background-position: center center;
-    }
-}
-*/
 
 .logo {
     width: 120px;
@@ -94,7 +52,6 @@ body {
     margin: 20px 10px 10px 10px;
     border: none;
     float: right;
-    font-family: 'Ubuntu', sans-serif;
     cursor: pointer;
 }
 
@@ -102,17 +59,21 @@ body {
     float: right;
     padding: 5px;
     font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
 }
 
 .topnav a {
-    float: center;
+    
     color: #28ADE3;
     text-align: center;
     padding: 300px 600px;
-    text-decoration:inherit;
+   
     font-size: 30px;
     height: 30px;
     position: relative;
+    float: left;
+  display: block;
+  text-decoration: none;
     
 }
 
@@ -201,7 +162,6 @@ li.dropdown {
 
 .section-2 {
     background-color: #006990;
-    height: 15vh;
     color: white;
     font-family: 'Ubuntu', sans-serif;
     padding: 20px 20px 20px 20px;
@@ -223,7 +183,7 @@ li.dropdown {
 }
 .sec3-left1 {
     background-color: #8cc640;
-    height: inherit;
+    
     width: 50%;
     color: white;
     font-family: 'Ubuntu', sans-serif;
@@ -239,7 +199,7 @@ h1 {
 
 .sec3-left2 {
     background-color: #8cc640;
-    height: inherit;
+  ;
     width: 50%;
     color: white;
     font-family: 'Ubuntu', sans-serif;
@@ -275,7 +235,7 @@ h1 {
 
 
 .sec3-right1 {
-    height: inherit;
+    
     width: 50%;
     border: 10;
     background-color: #28ADE3;
@@ -285,7 +245,7 @@ h1 {
      text-align: left;
 }
 .sec3-right2 {
-    height: inherit;
+   
     width: 50%;
     border: 10;
     background-color: #8cc640;
@@ -329,7 +289,7 @@ h1 {
 
 .section-5 {
     background-color: #28ADE3;
-    height: 5vh;
+    
     color: white;
     font-family: 'UbuntU', sans-serif;
     position: relative;
@@ -340,7 +300,7 @@ h1 {
 
 .section-6 {
     display: flex;
-    height: 200px;
+   
 }
 
 .sec6-1 {
@@ -684,11 +644,11 @@ text-align: left;
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other 
 @media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn { 
+  .sec3-left1, .sec3-right1 { 
     width: 100%;
     padding: 0;
   }
-}*/
+*/
 
 
 /* For Media screen devices: max-width = 768px
@@ -702,4 +662,51 @@ text-align: left;
 
 }*/
 
+/* @media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    text-align: center;
+    flex-direction: column;
+  }
+*/
 
+/*sections to column*/
+@media only screen and (max-width: 600px){
+    html {
+        font-size: 12px;
+    }
+    .container {
+        width: 100vw;
+    }
+    
+    section {
+        flex-direction: column;
+        
+    li {
+        flex-direction: column;
+    }
+}
+
+/*For NAV BAR*/
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
