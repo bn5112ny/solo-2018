@@ -9,6 +9,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     margin-bottom: 0 auto;
     text-align: center;
+    margin: 0;
 
 }
 
@@ -22,7 +23,11 @@ body {
     width: 120px;
     padding: 10px 10px 0px 10px;
     float: left;
-    
+}
+
+.navlogo {
+    width: 100px;
+    margin-bottom: 100px;
 }
 
 .facebook-top {
@@ -93,7 +98,10 @@ ul {
     overflow: hidden;
     background-color: white;
     height: 80px;
-    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
 }
 
 li {
@@ -143,6 +151,32 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+/*
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+*/
+
 
 .section-1 {
     background-image: url("../images/group_photo.jpg");  
@@ -682,13 +716,14 @@ text-align: left;
     
     section {
         flex-direction: column;
-        
-    li {
-        flex-direction: column;
-    }
 }
 
-/*For NAV BAR*/
+    ul {    
+    position: absolute;
+    overflow: auto;
+}
+}
+/*For NAV BAR
 @media screen and (max-width: 600px) {
   .navbar a:not(:first-child) {display: none;}
   .navbar a.icon {
@@ -710,3 +745,4 @@ text-align: left;
     text-align: left;
   }
 }
+*/
