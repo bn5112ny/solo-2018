@@ -720,8 +720,14 @@ text-align: left;
 
     ul {    
     position: absolute;
-    overflow: auto;
+    overflow: visible;
+     padding-top: 50px,
 }
+
+    .logo {
+        display: none;
+    }
+    
 }
 /*For NAV BAR
 @media screen and (max-width: 600px) {
