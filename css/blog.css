@@ -406,5 +406,87 @@ footer a:hover {
     color: #8cc640;
 }
 
+@media only screen and (max-width: 600px){
+    html {
+        font-size: 12px;
+    }
+    .container {
+        width: 100vw;
+    }
+    
+    #menu-icon {
 
+		display:inline-block;
+
+	}
+
+	nav ul, nav:active ul { 
+
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #fff;
+		border: 5px solid #444;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 4px 0 4px 4px;
+
+	}
+
+	nav li {
+
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+
+	}
+
+	nav:hover ul {
+
+		display: block;
+
+	}
+    
+    section {
+        flex-direction: column;
+        max-width: width: 100%;
+}
+
+    .section-1 {
+         padding-top: 100px;
+         padding-bottom: 30px;
+    }
+
+    ul {    
+    position: absolute;
+    overflow: visible;
+     padding-top: 50px,
+}
+
+    .logo {
+        display: none;
+    }        
+    .header {
+        padding-top: 100px;
+        width: 100%;
+    }
+    .donatebutton {
+        display: none;
+    
+    }
+    
+    .facebook-top {
+    display: none;
+}
+
+    .instagram-top {
+    display: none;
+}
+
+    .twitter-top {
+    display: none;
+}
+}
 
