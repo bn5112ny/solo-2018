@@ -501,10 +501,9 @@ footer {
     
 }
 
-#about2 {
-    float: left;
+#chapters {
     text-align: center;
-    padding: 35px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
 }
 
 .blog2 {
@@ -513,10 +512,22 @@ footer {
     padding: 0px 0px 0px 0px;
 }
 
-.involved2 {
+.whoWeAre {
     text-align: center;
-     padding: 0px 50px 50px 50px;
+     padding: 0px 0px 0px 0px;
 }
+
+.whatWeDo {
+    text-align: center;
+     padding: 0px 0px 0px 0px;
+}
+
+.involved {
+    text-align: center;
+     padding: 0px 0px 0px 0px;
+}
+
+
 
 footer a {
     text-decoration: none;
@@ -710,7 +721,7 @@ text-align: left;
     .container {
         width: 100vw;
     }
-    
+ /*   
     #menu-icon {
 
 		display:inline-block;
@@ -745,7 +756,7 @@ text-align: left;
 		display: block;
 
 	}
-    
+*/    
     section {
         flex-direction: column;
         max-width: width: 100%;
